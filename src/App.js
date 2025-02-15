@@ -3,6 +3,7 @@ import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import PersonalInfo from "./PersonalInfo";
 import KeySkills from "./KeySkills";
+import Languages from "./Language";
 
 const App = () => {
   return (
@@ -24,12 +25,7 @@ const App = () => {
           <p><strong>Country:</strong> United Arab Emirates (UAE)</p>
         </div>
         <div className="section">
-          <h2>Languages</h2>
-          <ul>
-            <li>English</li>
-            <li>Marathi</li>
-            <li>Hindi</li>
-          </ul>
+          <Languages />
         </div>
       </div>
       <div className="main-content">
