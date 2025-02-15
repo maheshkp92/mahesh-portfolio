@@ -1,6 +1,5 @@
 .education {
     font-family: Arial, sans-serif;
-    padding: 20px;
     max-width: 600px;
     margin: auto;
 }
@@ -22,6 +21,7 @@ h2 {
     align-items: flex-start;
     margin-bottom: 20px;
     position: relative;
+    padding-left: 59px;
 }
 
 .year {
@@ -51,7 +51,7 @@ h4 {
 .timeline::before {
     content: "";
     position: absolute;
-    left: 64px;
+    left: 125px;
     top: 5px;
     width: 2px;
     height: 100%;
@@ -65,6 +65,6 @@ h4 {
     background-color: #333;
     border-radius: 50%;
     position: absolute;
-    left: 60px;
+    left: 121px;
     top: 5px;
 }
