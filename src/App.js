@@ -1,6 +1,7 @@
 import React from "react";
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
+import PersonalInfo from "./PersonalInfo";
 
 const App = () => {
   return (
@@ -10,12 +11,7 @@ const App = () => {
           <img className="profile-img" src="/profile.jpg" alt="Profile" />
         </div>
         <div className="section">
-          <h2>Personal Information</h2>
-          <p><strong>Email:</strong> maheshkpatil5370@gmail.com</p>
-          <p><strong>Phone:</strong> +971 555605896</p>
-          <p><strong>Total work experience:</strong><br /> 11 Years 0 Month</p>
-          <p><strong>Location:</strong> Dubai, UAE</p>
-          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mahesh-patil-959a7b78/">Profile</a></p>
+          <PersonalInfo />
         </div>
         <div className="section">
           <h2>Key Skills</h2>
