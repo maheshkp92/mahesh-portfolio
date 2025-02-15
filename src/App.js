@@ -2,6 +2,7 @@ import React from "react";
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import PersonalInfo from "./PersonalInfo";
+import KeySkills from "./KeySkills";
 
 const App = () => {
   return (
@@ -14,17 +15,13 @@ const App = () => {
           <PersonalInfo />
         </div>
         <div className="section">
-          <h2>Key Skills</h2>
-          <div className="skills">
-            {["Node.js", "React.js", "Golang", "TypeScript", "MySQL", "GraphQL", "PostgreSQL", "Kafka", "Redis"].map(skill => (
-              <span className="skill" key={skill}>{skill}</span>
-            ))}
-          </div>
+          <KeySkills />
         </div>
         <div className="section">
           <h2>Other Personal Details</h2>
-          <p><strong>City</strong> Dubai</p>
-          <p><strong>Country</strong> United Arab Emirates (UAE)</p>
+          <p><strong>Nationality:</strong> Indian</p>
+          <p><strong>City:</strong> Dubai</p>
+          <p><strong>Country:</strong> United Arab Emirates (UAE)</p>
         </div>
         <div className="section">
           <h2>Languages</h2>
