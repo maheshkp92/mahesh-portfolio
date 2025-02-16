@@ -6,7 +6,6 @@ const WorkExperience = () => {
         <div className="work-experience">
             <h2>WORK EXPERIENCE</h2>
             <div className="edu-timeline">
-                {/* Latest Job */}
                 <div className="job">
                     <div className="date">Sep 2023 - Present</div>
                     <div className="details">
@@ -32,8 +31,6 @@ const WorkExperience = () => {
                         </ul>
                     </div>
                 </div>
-
-                {/* Previous Job */}
                 <div className="job">
                     <div className="date">May 2022 - Aug 2023</div>
                     <div className="details">
